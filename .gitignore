@@ -1,10 +1,10 @@
-# Environment variables and secrets
+# Environment variables
 
 .env
 .env.*
 !.env.example
 
-# Virtual environments
+# Virtual environment
 
 .venv/
 venv/
@@ -14,13 +14,7 @@ venv/
 **pycache**/
 *.py[cod]
 
-# Testing and coverage
+# Downloaded audio and generated files
 
-.pytest_cache/
-.coverage
-htmlcov/
-
-# IDE settings
-
-.idea/
-.vscode/
+downloads/
+vector_db/
